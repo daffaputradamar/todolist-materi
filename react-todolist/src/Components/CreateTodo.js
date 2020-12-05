@@ -7,7 +7,6 @@ function CreateTodo({ addTodo }) {
 
     const submitTodo = function () {
         addTodo({ todo, isCompleted: false });
-        // console.log(history);
         return history.push("/");
     };
 

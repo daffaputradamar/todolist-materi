@@ -1,11 +1,6 @@
 import React from "react";
 
 function TodoItem({ id, todo, isCompleted, changeTodo, deleteTodo }) {
-    // const [isCompletedState, setIsCompletedState] = useState(isCompleted);
-    // const changeStatus = () => {
-    //     setIsCompletedState(!isCompletedState)
-
-    // }
     return (
         <div>
             <input
